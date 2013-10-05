@@ -23,7 +23,7 @@ export HISTFILESIZE=10000
 export PROMPT_COMMAND='history -a'
 
 # MINE
-export INPUTRC=$HOME/.my-bash/inputrc
+export INPUTRC=$MYBASH/inputrc
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
@@ -95,7 +95,7 @@ fi
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
-source $HOME/.my-bash/git-completion.bash
-source $HOME/.my-bash/git-prompt.sh
-source $HOME/.my-bash/bash_aliases
-source $HOME/.my-bash/my_bash_aliases
+source $MYBASH/git-completion.bash
+source $MYBASH/git-prompt.sh
+source $MYBASH/bash_aliases
+source $MYBASH/my_bash_aliases
