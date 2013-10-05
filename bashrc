@@ -95,7 +95,7 @@ fi
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
-source .my-bash/git-completion.bash
-source .my-bash/git-prompt.sh
-source .my-bash/bash_aliases
-source .my-bash/my_bash_aliases
+source $HOME/.my-bash/git-completion.bash
+source $HOME/.my-bash/git-prompt.sh
+source $HOME/.my-bash/bash_aliases
+source $HOME/.my-bash/my_bash_aliases
