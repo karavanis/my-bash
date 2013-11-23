@@ -4,9 +4,12 @@ alias zenon='ssh arabanis@zenon.ceid.upatras.gr'
 
 alias pythongr='ssh pythongr@kronos.ellak.gr -p 1337'
 
+alias updatemac='brew update;
+                 brew upgrade'
+
 alias updatesys='sudo apt-get update;
                  sudo apt-get -y upgrade;
-                 sudo apt-get -y dist-upgrade
+                 sudo apt-get -y dist-upgrade;
                  sudo apt-get -y autoremove'
 
 alias add='sudo apt-get install '
