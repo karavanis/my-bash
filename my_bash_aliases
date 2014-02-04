@@ -49,3 +49,5 @@ alias api='cd ~/Development/m-api'
 alias hbci-app='cd ~/Development/m-api/m-hbci-app'
 
 alias hbci-service='cd ~/Development/m-api/m-hbci-service'
+
+alias adbrigh='xbacklight -set 100'
