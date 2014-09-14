@@ -58,3 +58,8 @@ alias adbrigh='xbacklight -set 100'
 alias workers='cd ~/Development/core-manager/core-workers'
 
 alias manager='cd ~/Development/core-manager'
+
+alias net_set='rm /var/lib/NetworkManager/NetworkManager.state;
+               /etc/init.d/network-manager restart;
+               /etc/init.d/network-manager restart'
+
