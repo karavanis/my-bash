@@ -35,9 +35,9 @@ alias leak='valgrind --tool=memcheck --leak-check=yes --show-reachable=yes --num
 
 alias repanel='killall plasma-desktop ; plasma-desktop'
 
-alias backup='~/Desktop/Debian_format/before_format.sh ; sudo rsync -av --delete --delete-excluded --stats --progress --exclude 'Downloads' /home/sbosx/ /media/sbosx_disk/sbosxBackUp/'
+alias backup='~/Desktop/Debian_format/before_format.sh ; sudo rsync -av --delete --delete-excluded --stats --progress --exclude 'media/movies' --exclude 'Downloads' /home/sbosx/ /media/sbosx_disk/sbosxBackUp/'
 
-alias backup_usb0=' ~/Desktop/Debian_format/before_format.sh ; sudo rsync -av --delete --delete-excluded --stats --progress --exclude 'Downloads' /home/sbosx/ /media/usb0/sbosxBackUp/'
+alias backup_usb0=' ~/Desktop/Debian_format/before_format.sh ; sudo rsync -av --delete --delete-excluded --stats --progress --exclude 'media/movies' --exclude 'Downloads' /home/sbosx/ /media/usb0/sbosxBackUp/'
 
 alias remonitor='xrandr --auto'
 
@@ -59,7 +59,7 @@ alias workers='cd ~/Development/core-manager/core-workers'
 
 alias manager='cd ~/Development/core-manager'
 
-alias net_set='rm /var/lib/NetworkManager/NetworkManager.state;
-               /etc/init.d/network-manager restart;
-               /etc/init.d/network-manager restart'
+alias net_set='sudo rm /var/lib/NetworkManager/NetworkManager.state;
+               sudo /etc/init.d/network-manager restart;
+               sudo /etc/init.d/network-manager restart'
 
