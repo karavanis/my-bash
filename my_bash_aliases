@@ -65,3 +65,7 @@ alias net_set='sudo rm /var/lib/NetworkManager/NetworkManager.state;
                sudo /etc/init.d/network-manager restart;
                sudo /etc/init.d/network-manager restart'
 
+alias stag='ssh vdc2-stag-jumphost'
+
+alias prod='ssh vdc2-prod-jumphost'
+
