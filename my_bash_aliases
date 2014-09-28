@@ -1,6 +1,6 @@
-alias diogenis='ssh arabanis@diogenis.ceid.upatras.gr'
+alias homeserver='ssh sbosx@192.168.0.12'
 
-alias zenon='ssh arabanis@zenon.ceid.upatras.gr'
+alias myserver='ssh root@146.185.135.51'
 
 alias pythongr='ssh pythongr@kronos.ellak.gr -p 1337'
 
@@ -51,13 +51,7 @@ alias ink_level='sudo modprobe usblp ; sudo ink -p usb ; sudo modprobe -r usblp'
 
 alias api='cd ~/Development/m-api'
 
-alias hbci-app='cd ~/Development/m-api/m-hbci-app'
-
-alias hbci-service='cd ~/Development/m-api/m-hbci-service'
-
 alias adbrigh='xbacklight -set 100'
-
-alias workers='cd ~/Development/core-manager/core-workers'
 
 alias manager='cd ~/Development/core-manager'
 
