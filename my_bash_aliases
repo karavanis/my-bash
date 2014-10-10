@@ -2,7 +2,7 @@ alias homeserver='ssh sbosx@192.168.0.12'
 
 alias myserver='ssh root@69.28.94.86'
 
-alias pythongr='ssh pythongr@kronos.ellak.gr -p 1337'
+alias pythongr='ssh pythongr@guest1.ellak.gr -p 2022'
 
 alias updatemac='brew update;
                  brew upgrade'
