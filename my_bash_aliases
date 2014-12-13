@@ -22,7 +22,7 @@ alias upgrade='sudo apt-get upgrade '
 
 alias autoremove='sudo apt-get autoremove '
 
-alias myip='curl ifconfig.me'
+alias myip='curl ipinfo.io/ip'
 
 alias psapp='ps aux|grep  '
 
