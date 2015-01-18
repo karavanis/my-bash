@@ -54,7 +54,6 @@ alias adbrigh='xbacklight -set 100'
 alias manager='cd ~/Development/core-manager'
 
 alias net_set='sudo rm /var/lib/NetworkManager/NetworkManager.state;
-               sudo /etc/init.d/network-manager restart;
                sudo /etc/init.d/network-manager restart'
 
 alias stag='ssh vdc2-stag-jumphost'
