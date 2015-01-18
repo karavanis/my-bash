@@ -22,7 +22,7 @@ alias upgrade='sudo apt-get upgrade '
 
 alias autoremove='sudo apt-get autoremove '
 
-alias myip='curl ifconfig.me'
+alias myip='curl ipinfo.io/ip'
 
 alias psapp='ps aux|grep  '
 
@@ -37,7 +37,7 @@ alias backup='~/Desktop/Debian_format/before_format.sh ; sudo rsync -av --delete
 
 alias backup_usb0=' ~/Desktop/Debian_format/before_format.sh ; sudo rsync -av --delete --delete-excluded --stats --progress --exclude 'media/movies' --exclude 'Downloads' /home/sbosx/ /media/usb0/sbosxBackUp/'
 
-alias backup_to_debian='sudo rsync -av --stats --progress ~/Development/ sbosx@192.168.0.12:work/centralway'
+alias backup_to_debian='sudo rsync -av --delete --stats --progress ~/Development/ sbosx@192.168.0.12:work/centralway'
 
 alias remonitor='xrandr --auto'
 
