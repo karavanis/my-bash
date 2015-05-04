@@ -93,6 +93,8 @@ if [ -f /etc/bash_completion ]; then
     . /etc/bash_completion
 fi
 
+. $HOME/.rvm/scripts/rvm
+
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 source $MYBASH/git-completion.bash
