@@ -3,7 +3,7 @@ My Bash Configuration
 
 Download the project
 
-On your .bashrc
+On your `.bashrc` or `.profile`
 
 ```
 MYBASH=$HOME/.my-bash
