@@ -43,7 +43,7 @@ alias remonitor='xrandr --auto'
 
 alias ping_google='ping www.google.com'
 
-alias backup_mails='/usr/bin/getmail -r /home/sbosx/.getmail/getmail.gmail'
+alias backup_mails='/usr/local/bin/getmail -r /Users/sbosx/.getmail/getmail.gmail'
 
 alias ink_level='sudo modprobe usblp ; sudo ink -p usb ; sudo modprobe -r usblp'
 
